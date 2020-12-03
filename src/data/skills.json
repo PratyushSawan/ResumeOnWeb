@@ -1,0 +1,62 @@
+[
+  {
+    "icon": "../images/skills/web.png",
+    "name": "Web Design & Development",
+    "tech": "HTML/CSS/Javascript"
+  },
+  {
+    "icon": "../images/skills/react.png",
+    "name": "Frontend Javascript Frameworks",
+    "tech": "React"
+  },
+  {
+    "icon": "../images/skills/nodejs.png",
+    "name": "Backend Javascript Frameworks",
+    "tech": "Node.js/Express.js/Mongoose"
+  },
+  {
+    "icon": "../images/skills/flutter.png",
+    "name": "Cross Platform App Development",
+    "tech": "Firebase"
+  },
+  {
+    "icon": "../images/skills/python.png",
+    "name": "Python Scripting",
+    "tech": "Python 3"
+  },
+  {
+    "icon": "../images/skills/database.png",
+    "name": "Database Management System",
+    "tech": "MySQL/Postgres/MongoDB"
+  },
+  {
+    "icon": "../images/skills/android.png",
+    "name": "Android App Development",
+    "tech": "No Skills"
+  },
+  {
+    "icon": "../images/skills/sketch.png",
+    "name": "UI/UX Design",
+    "tech": "Framer/Figma"
+  },
+  {
+    "icon": "../images/skills/tensorflow.png",
+    "name": "Machine Learning",
+    "tech": "In Learning Period"
+  },
+  {
+    "icon": "../images/skills/seo.png",
+    "name": "Search Engine Optimization",
+    "tech": "PageRank/Backlinks/Google Analytics"
+  },
+  {
+    "icon": "../images/skills/photography.png",
+    "name": "Photography & Cinematography",
+    "tech": "Adobe Photoshop/Sanpshot/PicsArt"
+  },
+  {
+    "icon": "../images/skills/fcpx.png",
+    "name": "Photo & Video Post-Processing",
+    "tech": "Adobe After Effects"
+  }
+]

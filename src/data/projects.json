@@ -1,0 +1,45 @@
+[
+  {
+    "image": "../images/projects/amzonproject.png",
+    "title": "Online Shoping Site(Like Amazon)",
+    "description": "A Fully functional Shoping Site Using React and Stripe. Where user can login/Signup and buy thier essential Product online buy paying amount.",
+    "tags": ["FireBase", "React", "MaterialUI", "Auth", "Stripe"],
+    "website": "https://amzon-cloneapp.web.app/"
+  },
+  {
+    "image": "../images/projects/affiliateLinkgenertor.png",
+    "title": "Affiliated ShortLink Generator",
+    "description": "This app can attch your affiliate Tag with any Amazon Product link and also remove another's tag from link, and provide you a short Link",
+    "tags": ["opensource", "NodeJS", "MongoDB", "EJS", "BootStrap"],
+    "github": "https://github.com/PratyushSawan/UrlShortener",
+    "website": "https://affiliatelinkshorter.herokuapp.com/"
+  },
+  {
+    "image": "../images/projects/pratyushSawanreusme.png",
+    "title": "My Online Resume",
+    "description": "This Site make's my imaginary presence to My visitors. Also a HighLevel Resume on the Web",
+    "tags": ["Gatsby", "FireBase", "scraping", "Tailwind", "MaterialUI"],
+    "github": "https://pratyushsawan.tech"
+  },
+  {
+    "image": "../images/projects/chatRoom.png",
+    "title": "Grop Chat-Room",
+    "description": "ReactProject : A Simple Group Message App where you can talk to you friends in Group at realTime",
+    "tags": ["opensource", "FireBase", "webdev", "ReactJS", "MaterialUI"],
+    "github": "https://github.com/PratyushSawan/Chat-Room"
+  },
+  {
+    "image": "../images/projects/instaPic2.png",
+    "title": "Post Sharing APP",
+    "description": "A simple APP where you can SignUp/Login and share a pic with a caption and also comment on other's post",
+    "tags": ["Auth", "FireBase", "react", "@materialUI"],
+    "website": "https://instapicbypratyush.web.app/"
+  },
+  {
+    "image": "../images/projects/codePen.png",
+    "title": "CodePen",
+    "description": "ReactProject: A clonned CodePen.io App Using React",
+    "tags": ["opensource", "appdev", "React"],
+    "github": "https://github.com/PratyushSawan/codePen"
+  }
+]
