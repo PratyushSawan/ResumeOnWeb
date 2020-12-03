@@ -4,9 +4,9 @@
 
 ### Badges of Honor
 
-[![Website](https://img.shields.io/website-up-down-green-red/http/amruthpillai.com.svg)](https://amruthpillai.com/)
-[![Uptime Robot](https://img.shields.io/uptimerobot/ratio/m781987043-24c5463b2c0e80a630682bd0.svg?style=flat)](https://amruthpillai.com/)
-[![Last Commit](https://img.shields.io/github/last-commit/amruthpillai/resumeontheweb-angular.svg?style=flat)](https://amruthpillai.com/)
+[![Website](https://img.shields.io/website-up-down-green-red/http/amruthpillai.com.svg)](https://pratyushsawan.tech/)
+[![Uptime Robot](https://img.shields.io/uptimerobot/ratio/m781987043-24c5463b2c0e80a630682bd0.svg?style=flat)](https://pratyushsawan.tech/)
+[![Last Commit](https://img.shields.io/github/last-commit/amruthpillai/resumeontheweb-angular.svg?style=flat)](https://pratyushsawan.tech/)
 ![Code Size](https://img.shields.io/github/languages/code-size/amruthpillai/resumeontheweb-gatsby.svg?style=flat)
 ![MIT License](https://img.shields.io/github/license/amruthpillai/resumeontheweb-gatsby.svg?style=flat)
 
@@ -25,7 +25,7 @@ The website features a variety of tidbits from across the web, from how the serv
 
 To check out the live version of the site in all of it's glory, head over to:
 
-### https://www.amruthpillai.com/
+### https://www.pratyushsawan.tech/
 
 ## About the Project
 
@@ -37,15 +37,15 @@ This version of the project was built using [GatsbyJS](https://www.gatsbyjs.org/
 
 I hope you loved the site as much as I enjoyed developing it and learning from it. If you did, please let me know using the [contact form](#contact) on the website, I would be **ecstatic** to hear from you.
 
-If you would like to peek around the code and see what makes this website tick, the complete source code is open to probing right here on GitHub. You can even edit it to make your own version of the site, as this project is copylefted under the permissive [MIT License](https://github.com/AmruthPillai/ResumeOnTheWeb-Gatsby/blob/master/LICENSE).
+If you would like to peek around the code and see what makes this website tick, the complete source code is open to probing right here on GitHub. You can even edit it to make your own version of the site, as this project is copylefted under the permissive [MIT License](https://github.com/pratyushsawan/ResumeOnTheWeb-Gatsby/blob/master/LICENSE).
 
 ## Screenshots
 
-Here is just a small sneak peek of how the website looks. The screenshots really don't do justice to the interactivity the live site provides, so head on over to https://www.amruthpillai.com/.
+Here is just a small sneak peek of how the website looks. The screenshots really don't do justice to the interactivity the live site provides, so head on over to https://www.pratyushsawan.tech/.
 
 | Landing                              | Projects                             | Languages                            |
 | ------------------------------------ | ------------------------------------ | ------------------------------------ |
-| ![](https://i.imgur.com/ZbMXby7.png) | ![](https://i.imgur.com/CsZ2VSx.png) | ![](https://i.imgur.com/oVWFmsI.png) |
+| ![](https://i.imgur.com/avnnnTu.png) | ![](https://i.imgur.com/CsZ2VSx.png) | ![](https://i.imgur.com/oVWFmsI.png) |
 
 ## Technology
 
@@ -71,8 +71,8 @@ npm install -g gatsby-cli
 2. Clone the repository and go into the working directory
 
 ```console
-git clone https://github.com/AmruthPillai/ResumeOnTheWeb-Gatsby.git
-cd ResumeOnTheWeb-Gatsby
+git clone https://github.com/PratyushSawan/ResumeOnWeb.git
+cd ResumeOnWeb
 ```
 
 3. Then, just run this command to install the necessary dependencies. It might take a while for it to finish, so keep an episode of 'Friends' running, just in case.
@@ -92,6 +92,10 @@ gatsby develop
 ```console
 gatsby build
 ```
+
+---
+
+<img align='left' alt='pratyush-Online-Resume' src='./src/images/pratyushTitle.png?raw=true'>
 
 ---
 
