@@ -6,7 +6,7 @@ module.exports = {
     title: `Pratyush's Resume on the Web`,
     description: `Everyone needs their own little spot on the interwebs, and this is mine. Welcome to my resume, on the web!`,
     author: `Pratyush Raj`,
-    siteUrl: `https://pratyushsawan.tech`,
+    siteUrl: `https://pratyushsawan.co.in`,
   },
   plugins: [
     {

@@ -35,7 +35,7 @@ const Work = () => {
 
   return (
     <section id="work">
-      <Heading icon={MdWork} title="Work" />
+      <Heading icon={MdWork} title="Work Experience" />
 
       <div className="flex">
         <div className="w-1 bg-gray-500 rounded-full md:ml-6 opacity-25" />
