@@ -12,7 +12,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-canonical-urls`,
       options: {
-        siteUrl: `https://pratyushsawan.tech`,
+        siteUrl: `https://pratyushsawan.co.in`,
       },
     },
     {
@@ -25,7 +25,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-robots-txt`,
       options: {
-        host: `https://pratyushsawan.tech`,
+        host: `https://pratyushsawan.co.in`,
         sitemap: `https://pratyushsawan/sitemap.xml`,
         policy: [{ userAgent: `*`, allow: `/` }],
       },
