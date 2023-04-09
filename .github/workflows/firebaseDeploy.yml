@@ -32,7 +32,7 @@ jobs:
         yarn build
 
     - name: Deploy to Firebase Hosting
-      uses: w9jds/firebase-action@v1.4.0
+      uses: w9jds/firebase-action@main
       with:
         args: deploy --only hosting --token
       env:

@@ -3,6 +3,9 @@
   "description": "Everyone needs their own little spot on the interwebs, and this is mine. Welcome to my resume, on the web!",
   "version": "1.0.0",
   "author": "Pratyush Raj <pratyushrajsingh22@gmail.com>",
+  "engines": {
+    "node": "16"
+  },
   "dependencies": {
     "@material-ui/core": "^4.11.0",
     "@sendgrid/mail": "^7.2.6",
