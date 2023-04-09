@@ -1,0 +1,39 @@
+name: Continues Build and Deploy
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build_and_deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: Prod
+      url: https://production.com
+    strategy:
+      matrix:
+        node-version: [16.x]
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    - name: Use Node.js ${{matrix.node-version}}
+      uses: actions/setup-node@v3
+      with:
+        node-version: ${{ matrix.node-version }}
+
+    - name: Install dependencies
+      run: |
+        npm install
+
+    - name: Build Gatsby project
+      run: |
+        npm build
+
+    - name: Deploy to Firebase Hosting
+      uses: w9jds/firebase-action@v1.4.0
+      with:
+        args: deploy --only hosting --token
+      env:
+        FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
