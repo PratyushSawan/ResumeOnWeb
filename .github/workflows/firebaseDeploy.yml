@@ -25,11 +25,11 @@ jobs:
 
     - name: Install dependencies
       run: |
-        npm install
+        yarn
 
     - name: Build Gatsby project
       run: |
-        npm build
+        yarn build
 
     - name: Deploy to Firebase Hosting
       uses: w9jds/firebase-action@v1.4.0
