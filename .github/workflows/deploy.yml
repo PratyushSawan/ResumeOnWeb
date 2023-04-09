@@ -1,0 +1,31 @@
+name: Gatsby Build and Firebase Deploy
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build_and_deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Use Node.js
+      uses: actions/setup-node@v2
+      with:
+        node-version: '14.x'
+
+    - name: Install dependencies
+      run: |
+        npm install
+
+    - name: Build Gatsby project
+      run: |
+        npm build
+
+    - name: Deploy to Firebase Hosting
+      uses: w9jds/firebase-action@v1.4.0
+      with:
+        args: deploy --only hosting --token ${{ secrets.FIREBASE_TOKEN }}

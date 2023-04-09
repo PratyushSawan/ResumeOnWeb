@@ -26,7 +26,7 @@ const Resume = () => {
       <div className="grid grid-cols-1 gap-6 md:grid-cols-5 md:gap-8 items-center">
         <div className="col-span-1 md:col-span-2">
           <OutboundLink
-            href="https://drive.google.com/file/d/1QhC9YuJrLEfKWxifBlA9g_2gFnlYP1gz/view?usp=sharing"
+            href="https://beta.fileverse.io/files/90d7a169-1e8f-4f93-b30e-c1e8950af482?editAudience=true&ownerFirstVisit=true"
             target="_blank"
             rel="noopener noreferrer"
             className="w-full h-64 md:h-48 lg:h-64 bg-black relative flex-center cursor-pointer rounded-lg shadow-lg"
@@ -51,7 +51,7 @@ const Resume = () => {
             icon={IoIosDocument}
             title="Download Resume"
             onClick={() =>
-              window.open("https://drive.google.com/file/d/1QhC9YuJrLEfKWxifBlA9g_2gFnlYP1gz/view?usp=sharing", "_blank")
+              window.open("https://beta.fileverse.io/files/90d7a169-1e8f-4f93-b30e-c1e8950af482?editAudience=true&ownerFirstVisit=true", "_blank")
             }
           />
         </div>
